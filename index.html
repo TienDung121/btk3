@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="image">Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.</div>
+
+  <div class="gallery">
+    <img class="preview" alt="Hình ảnh 1: Phong cảnh thiên nhiên" 
+         src="https://picsum.photos/id/1018/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" alt="Hình ảnh 2: Biển và hoàng hôn" 
+         src="https://picsum.photos/id/1015/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" alt="Hình ảnh 3: Núi non trùng điệp" 
+         src="https://picsum.photos/id/1016/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
